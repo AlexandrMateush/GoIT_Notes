@@ -21,5 +21,4 @@ jobs:
 
       - name: Run tests
         run: ./gradlew test --no-daemon
-        env:
-          JAVA_HOME: DevHomeWork13\src\test\java\com\example\DevHomeWork13\config
+        
