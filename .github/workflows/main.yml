@@ -21,3 +21,5 @@ jobs:
 
       - name: Run tests
         run: ./gradlew test --no-daemon
+        env:
+          JAVA_HOME: /usr/local/openjdk-17
