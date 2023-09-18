@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Note {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
